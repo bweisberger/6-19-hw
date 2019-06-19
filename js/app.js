@@ -32,29 +32,49 @@
 //   }
 // }
 
-const kenny = ["Kenny", 1000, "Austin"];
-const jimHaff = ["Jim H", 16, "All cities"];
-const reuben = ["Reuben", 22, "Durham"];
-const jimClark = ["Jim C", 186, "LA"];
-const ryan = ["Ryan", 65, "Denver"];
+// const kenny = ["Kenny", 1000, "Austin"];
+// const jimHaff = ["Jim H", 16, "All cities"];
+// const reuben = ["Reuben", 22, "Durham"];
+// const jimClark = ["Jim C", 186, "LA"];
+// const ryan = ["Ryan", 65, "Denver"];
+//
+// kenny.shift();
+// kenny.unshift("Gameboy");
+// console.log(kenny);
+//
+// ++jimClark[1];
+// console.log(jimClark[1]);
+//
+// ryan[2] = "Denver";
+// console.log(ryan[2]);
+//
+// reuben.pop();
+// reuben.push("Chicago");
+// console.log(reuben);
+//
+// jimHaff.pop();
+// jimHaff.push("Chicago", "New Orleans", "Milan");
+// console.log(jimHaff);
+//
+// jimHaff.splice(-3, 1)
+// console.log(jimHaff);
 
-kenny.shift();
-kenny.unshift("Gameboy");
-console.log(kenny);
-
-++jimClark[1];
-console.log(jimClark[1]);
-
-ryan[2] = "Denver";
-console.log(ryan[2]);
-
-reuben.pop();
-reuben.push("Chicago");
-console.log(reuben);
-
-jimHaff.pop();
-jimHaff.push("Chicago", "New Orleans", "Milan");
-console.log(jimHaff);
-
-jimHaff.splice(-3, 1)
-console.log(jimHaff);
+// const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// for (let i = 0; i < ninjaTurtles.length; i++) {
+//   console.log(ninjaTurtles[i].toUpperCase());
+// }
+//
+// let camelName = ""
+// for (let i = 0; i < ninjaTurtles.length; i++) {
+//   let name = ninjaTurtles[i];
+//   for (let j = 0; j < name.length; j++) {
+//     if (j%2 === 0) {
+//       camelName += name[j].toUpperCase();
+//     }
+//     else {
+//       camelName += name[j].toLowerCase();
+//     }
+//   }
+//   console.log(camelName);
+//   camelName = "";
+// }
