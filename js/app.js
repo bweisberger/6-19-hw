@@ -78,3 +78,58 @@
 //   console.log(camelName);
 //   camelName = "";
 // }
+
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+//
+// // Thom's closet is more complicated. Check out this nested data structure!!
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
+//
+// const kristynsShoe = kristynsCloset.shift();
+// thomsCloset[2].push(kristynsShoe);
+// console.log(thomsCloset[0][0]);
+//
+// const kristynsOutfit = [
+//   kristynsCloset[0],
+//   kristynsCloset[3],
+//   kristynsCloset[2]
+// ];
+// const thomsFirstOutfit = [
+//   thomsCloset[0][0],
+//   thomsCloset[1][0],
+//   thomsCloset[2][0]
+// ];
+// const thomsSecondOutfit = [
+//   thomsCloset[0][1],
+//   thomsCloset[1][1],
+//   thomsCloset[2][1]
+// ];
+//
+// console.log(`Kristyn is wearing ${kristynsOutfit[0]}, ${kristynsOutfit[1]}, and a ${kristynsOutfit[2]}.`);
+// console.log(`Thom is wearing a ${thomsFirstOutfit[0]}, ${thomsFirstOutfit[1]}, and ${thomsFirstOutfit[2]}.`);
+// console.log(`Thom is wearing a ${thomsSecondOutfit[0]}, ${thomsSecondOutfit[1]}, and a ${thomsSecondOutfit[2]}.`);
