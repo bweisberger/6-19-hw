@@ -169,7 +169,7 @@ for (let i = argument; i >= 1; i--) {
 //Right justified upside down right triangle
 for (let i = argument; i >= 1; i--) {
   console.log(" ".repeat(argument-i)+"#".repeat(i));
-
+}
 const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18,12, 17, 12, 71, 18, 15, 12];
 console.log(nums.sort());
 console.log(nums[Math.floor(nums.length/2)]);
