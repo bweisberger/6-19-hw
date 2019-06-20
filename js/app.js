@@ -147,4 +147,26 @@ for (let i = 0; i < 1000; i++) {
     sum += i
   }
 }
+
 // console.log(sum);
+
+let argument = 7;
+//Left justified upright right triangle
+for (let i = 1; i <= argument; i++) {
+  console.log("#".repeat(i));
+}
+
+//Right justified upright right triangle
+for (let i = 1; i <= argument; i++) {
+  console.log(" ".repeat(argument-i)+"#".repeat(i));
+}
+
+//Left justified upside down right triangle
+for (let i = argument; i >= 1; i--) {
+  console.log("#".repeat(i));
+}
+
+//Right justified upside down right triangle
+for (let i = argument; i >= 1; i--) {
+  console.log(" ".repeat(argument-i)+"#".repeat(i));
+}
