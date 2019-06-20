@@ -134,10 +134,17 @@ const thomsCloset = [
 // console.log(`Thom is wearing a ${thomsFirstOutfit[0]}, ${thomsFirstOutfit[1]}, and ${thomsFirstOutfit[2]}.`);
 // console.log(`Thom is wearing a ${thomsSecondOutfit[0]}, ${thomsSecondOutfit[1]}, and a ${thomsSecondOutfit[2]}.`);
 
-for (let i = 0; i < kristynsCloset.length; i++) {
-  console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+// for (let i = 0; i < kristynsCloset.length; i++) {
+//   console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+// }
+//
+// for (let i = 0; i < thomsCloset.length; i++) {
+//   console.log(thomsCloset[i]);
+// }
+let sum = 0
+for (let i = 0; i < 1000; i++) {
+  if (i % 3 === 0 || i % 5 === 0 || i % 9 === 0) {
+    sum += i
+  }
 }
-
-for (let i = 0; i < thomsCloset.length; i++) {
-  console.log(thomsCloset[i]);
-}
+// console.log(sum);
